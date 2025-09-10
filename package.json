@@ -1,0 +1,25 @@
+{
+  "name": "browser-app",
+  "version": "1.0.0",
+  "description": "A simple browser application that integrates with Google search.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  },
+  "keywords": [
+    "browser",
+    "search",
+    "google"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
